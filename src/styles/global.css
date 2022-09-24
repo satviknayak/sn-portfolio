@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-img{
+    background-image:url('../../static/bg-img.jpg');
+}
+.bg-profile{
+    background-image:url('../../static/profile.jpg');
+}
+.bg-skill{
+    background-image:url('../../static/bg-skill1.jpg');
+}
+.bg-contact{
+    background-image:url('../../static/bg-contact1.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position:center;
+}
+.bg{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position:center;
+}
+@media(max-width:500px){
+    .bg-skill{
+        background-size: auto 100%;
+    }
+}
