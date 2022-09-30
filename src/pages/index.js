@@ -34,7 +34,7 @@ export default function Home() {
       <h1 className="mt-[3.5rem] sm:mt-[4rem] text-[1.5rem] sm:text-[2rem] text-center text-white z-[3]">Skills</h1>
       <Skill />
     </div>
-    <div id="Projects" className="flex flex-col relative h-[85vh] w-full bg-black">
+    <div id="Projects" className="flex flex-col relative w-full bg-black">
       <Navbar/>
       <h1 className="mt-[3.5rem] sm:mt-[4rem] text-[1.5rem] sm:text-[2rem] text-center text-white">Projects</h1>
       <Project></Project>
