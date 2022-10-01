@@ -8,7 +8,7 @@ export default function Project() {
         <a
           key={index}
           href={`https://github.com/satviknayak/${project.title}`}
-          className="block p-10 border border-gray-500 shadow-xl transition rounded-xl hover:shadow-gray-500/10 hover:border-gray-300 duration-300 text-white text-5xl transition duration-500 hover:scale-[1.02]"
+          className="block p-10 border border-gray-500 shadow-xl rounded-xl hover:shadow-gray-500/10 hover:border-gray-300 text-white text-5xl transition duration-500 hover:scale-[1.02]"
         >
           {project.icon}
           <h3 className="mt-4 text-xl font-bold text-black dark:text-white">
