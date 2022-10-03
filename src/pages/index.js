@@ -29,9 +29,8 @@ export default function Home() {
       <h1 className="mt-[3.5rem] sm:mt-[4rem] text-[1.5rem] sm:text-[2rem] text-center text-white">About</h1>
     </div>
     <div id="Skills" className="flex flex-col relative w-full bg-black ">
-      <div className="flex absolute w-full h-full bg-black top-0 left-0 z-[1] opacity-50"></div>
       <Navbar/>
-      <h1 className="mt-[3.5rem] sm:mt-[4rem] text-[1.5rem] sm:text-[2rem] text-center text-white z-[3]">Skills</h1>
+      <h1 className="mt-[3.5rem] sm:mt-[4rem] text-[1.5rem] sm:text-[2rem] text-center text-white">Skills</h1>
       <Skill />
     </div>
     <div id="Projects" className="flex flex-col relative w-full bg-black">
